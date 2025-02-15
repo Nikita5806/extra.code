@@ -64,3 +64,16 @@ img{
     margin-left: 900px;
     margin-top: 7px;
 }
+
+let inputs = document.getElementById("inp");
+let text = document.querySelector(".text");
+
+function Add(){
+   if( inputs.value == ""){
+    alert ("enter some task")
+   }else{
+    let newEl = document.createElement("ul");
+    newEl.innerHTML = `${inputs.value}`;
+    text.appendChild(newEl)
+   }
+}
