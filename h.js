@@ -48,3 +48,16 @@ for idx, val in enumerate(arr):
         break
     ref[val] = idx  # Store the index of the current number
 
+//gcd
+import math
+import functools
+
+def find_gcd(arr):
+    return functools.reduce(math.gcd, arr)
+
+
+n = int(input())  
+arr = list(map(int, input().split()))  
+
+
+print(find_gcd(arr))
