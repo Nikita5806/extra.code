@@ -1,3 +1,4 @@
+//stock
 function maxProfit(prices) {
     if (!prices.length) return 0;
 
@@ -32,3 +33,18 @@ rl.on("line", (line) => {
     
     console.log(maxProfit(prices));
 });
+
+//two sum 67
+size = int(input())
+arr = list(map(int, input().split()))
+target = int(input())
+
+ref = {}  # Dictionary to store values and their indices
+
+for idx, val in enumerate(arr):
+    rem = target - val  # Find the required complement
+    if rem in ref:
+        print(ref[rem], idx)  # Print the indices of the two numbers
+        break
+    ref[val] = idx  # Store the index of the current number
+
