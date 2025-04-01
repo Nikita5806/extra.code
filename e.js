@@ -7,3 +7,9 @@ function calc(){
 
 console.time("timer");
 calc()
+let a = 66;
+ let b = 34;
+
+ console.log("inko mila k hoga" + (a + b));
+ 
+     
