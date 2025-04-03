@@ -28,7 +28,16 @@ let age = Number (prompt (" age bta"));
   console.log( a);
   console.log(b)
   
+// 2nd method 
+  let a = 2
+   let b = 1
 
+   a = a+b; // 3
+   b = a- b; // 2
+   a = a- b;
+    console.log(a);
+    console.log(b);
+    
 
  
      
