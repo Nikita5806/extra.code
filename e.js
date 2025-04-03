@@ -14,7 +14,21 @@ let a = 66;
 
 let age = Number (prompt (" age bta"));
  console.log(typeof(age));
- 
+
+
+// swapping with extra variable
+ let a = 69
+ let b = 96
+ let c;
+
+  c = a;
+  a = b;
+  b = c;
+
+  console.log( a);
+  console.log(b)
+  
+
 
  
      
