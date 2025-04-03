@@ -11,5 +11,10 @@ let a = 66;
  let b = 34;
 
  console.log("inko mila k hoga" + (a + b));
+
+let age = Number (prompt (" age bta"));
+ console.log(typeof(age));
+ 
+
  
      
