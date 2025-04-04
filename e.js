@@ -37,7 +37,12 @@ let age = Number (prompt (" age bta"));
    a = a- b;
     console.log(a);
     console.log(b);
-    
+// q.1 
+let i = 11;
+i = i++ + ++i; // 11+13=24
+console.log(i)//24
+//q,2
+
 
  
      
