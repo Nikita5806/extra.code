@@ -42,6 +42,17 @@ let i = 11;
 i = i++ + ++i; // 11+13=24
 console.log(i)//24
 //q,2
+ let b = true; // 1, 2
+ b++ ;// 1 => 2
+ console.log(b); //2
+
+ let a = 11
+ a++ 
+ console.log(a); // 11
+
+ let i =11;
+ let j = --(i++); //  -- 12 , 11
+console.log(i)
 
 
  
