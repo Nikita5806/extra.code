@@ -89,6 +89,19 @@ console.log(p)// 26
  console.log(s)
 console.log(Math.sqrt(s*(s-x) * (s-y) * (s-z)))
 
+    
+let age = prompt("umr btaao??")
+
+if(isNaN(age)){
+    console.log("bkchodi mt kree")
+}
+else if (age< 18){
+    console.log("chll niklll")
+} 
+ else {
+    console.log("chll vote dee")
+}
+
 
 
  
