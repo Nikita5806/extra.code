@@ -89,7 +89,7 @@ console.log(p)// 26
  console.log(s)
 console.log(Math.sqrt(s*(s-x) * (s-y) * (s-z)))
 
-    
+ //valid voterr   
 let age = prompt("umr btaao??")
 
 if(isNaN(age)){
