@@ -68,5 +68,28 @@ console.log(Math.trunc(Math.random()*9000)+ 1000)// gives 4 digit otp
 let a =  34.75834584678346;
 console.log(a.toFixed(5))
 
+let a = 6 
+let b = 7 
+ let c = a*b
+console.log(c) // 42
+
+let p = 2* (a +b)
+console.log(p)// 26
+
+// generate otp
+
+ console.log(Math.trunc(Math.random()*900)+100 )
+
+ // triangle herons formula
+ let x = 4
+ let y = 5
+ let z = 3
+
+ let s = (x+y+z)/2 
+ console.log(s)
+console.log(Math.sqrt(s*(s-x) * (s-y) * (s-z)))
+
+
+
  
      
