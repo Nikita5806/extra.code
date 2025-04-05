@@ -154,3 +154,36 @@ if(amount > 5){
 } 
  
      
+
+        switch (false) {
+            case 39 > 4:
+                console.log("heyy")
+
+                break
+
+            case 2 > 3:
+                console.log("kjkjk")
+
+            default: console.log("mmmm")
+        }ternary opertor
+        console.log(44 > 33 ? " hhjd" : "rieyru")
+
+        //nested ternary op.
+        let num = Number(prompt("enter number"));
+        console.log(num > 0 ? "positive" : num < 0 ? "negative" : "zero")
+        switch case
+            let num = 2;
+
+            switch (num) {
+                case 1:
+                case 2:
+                case 0:
+                    console.log("egg")
+                    break // if break removes called fall through condition
+
+                case 4: console.log("gayy")
+                    break
+
+                default: console.log("invalid")
+                    break
+            }
