@@ -101,6 +101,24 @@ else if (age< 18){
  else {
     console.log("chll vote dee")
 }
+// electricity bill
+let unit = Number( prompt('enter electricity unit'))
+let amount = 0;
+if(unit > 400 ){
+    amount = (unit - 400)* 13;
+    unit = 400
+}
+if(unit > 200 && unit <= 400){
+    amount += (unit - 200)* 8;
+    unit = 200
+}
+if(unit > 100 && unit <= 200){
+    amount += (unit - 100)* 6;
+    unit = 100
+}
+
+amount += unit * 4;
+console.log(amount)
 
 
 
