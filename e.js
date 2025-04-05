@@ -121,6 +121,36 @@ amount += unit * 4;
 console.log(amount)
 
 
-
+//INR 
+/ INR 
+let amount = 5433;
+if(amount > 500){
+   console.log("number of 500 notes are:" + (Math.floor(amount/500))) 
+    amount = amount%500
+}
+if(amount > 200){
+    console.log("number of 200 notes are:" +(Math.floor(amount/200)))
+    amount = amount%200
+}
+if(amount > 100){
+   console.log("number of 100 notes are:"+(Math.floor(amount/100))) 
+    amount = amount%100
+}
+if(amount > 50){
+   console.log("number of 50 notes are:"+(Math.floor(amount/50))) 
+    amount = amount%50
+}
+if(amount > 20){
+   console.log( "number of 20 notes are:"+(Math.floor(amount/20)))
+    amount = amount%20
+}
+if(amount > 10){
+ console.log("number of 10 notes are:"+(Math.floor(amount/10)))   
+    amount = amount%10
+}
+if(amount > 5){
+ console.log("number of coins are:"+(Math.floor(amount/5)))   
+    amount = amount%5
+} 
  
      
