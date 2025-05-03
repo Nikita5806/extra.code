@@ -1,0 +1,18 @@
+        var arr =[ 8 , 9 , 6,  ]
+var new2 = arr.filter(function(val){
+if (val> 8){return true}
+})
+console.log(new2)
+
+// map gives exact same number of new array
+//filter gives only those arr which condition is true and works in return true , false or val
+//indexOf tell if the search value is in index or not with position , if not gives -1
+  
+  
+  //object ka mtlb curly braces me kch bhi left side me : kch  b right me 
+  var obj = {
+   age : 33,
+   name: " kiki",
+  }
+  Object.freeze(obj)
+  obj.age = 45;
